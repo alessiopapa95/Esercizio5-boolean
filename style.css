@@ -1,0 +1,80 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 1000px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(56, 208, 39);
+    margin-bottom: 5px;
+}
+
+header > img {
+    height: 90px;
+}
+
+header > span {
+    font-size: 18pt;
+    display: block;
+    font-weight: 700;
+}
+
+main {
+    margin: 0px 0px 0px 50px;
+}
+
+.main-buttons {
+    display: inline-block;
+    width: 900px;
+    height: 40px;
+    background-color: rgb(56, 208, 39);
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;    
+}
+
+section {
+    color: white;   
+}
+
+section > h3 {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.distance, .text-carica {
+    display: block;
+}
+
+section > div {
+    height: 30px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.half-charge {
+    background-color: rgb(244, 193, 99);
+    width: 300px;
+}
+
+.full-charge {
+    background-color: rgb(8, 187, 0);
+    width: 500px;
+}
+
+.low-charge {
+    background-color: rgb(185, 52, 52);
+    width: 150px;
+}
